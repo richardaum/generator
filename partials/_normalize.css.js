@@ -182,7 +182,7 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: sans-serif; 
+  font-family: -apple-system, BlinkMacSystemFont, -system-ui, 'avenir next', avenir, helvetica, 'helvetica neue', ubuntu, roboto, noto, 'segoe ui', arial, sans-serif; 
   font-size: 100%; 
   line-height: 1.15; 
   margin: 0; 
