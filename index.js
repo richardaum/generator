@@ -19,7 +19,7 @@ module.exports = config => {
     const post = await assembleCss(modules, _config)
 
     const min = await buildCss(post, { minify: true, preserveVariables: true })
-    const css = await buildCss(post)
+    const css = await buildCss(post, { preserveVariables: true })
 
     const docs = generateDocs(_config, { modules, min: min.css })
 
